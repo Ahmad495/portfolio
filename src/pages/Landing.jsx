@@ -1,10 +1,19 @@
-import { Container } from '@nextui-org/react';
+import Contact from '../components/landingPage/Contact';
 import Hero from '../components/landingPage/Hero';
+import Intro from '../components/landingPage/Intro';
+import Project from '../components/landingPage/Project';
+import Skill from '../components/landingPage/Skill';
+import Footer from '../layout/Footer';
 
 export default function Landing() {
   return (
-    <Container>
+    <section style={{ overflow: 'hidden' }}>
       <Hero />
-    </Container>
+      <Intro />
+      <Skill />
+      <Project />
+      <Contact />
+      <Footer />
+    </section>
   );
 }

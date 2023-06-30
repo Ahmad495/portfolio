@@ -5,7 +5,7 @@ import heroFooter from '../../assets/hero-devices.svg';
 
 export default function Hero() {
   return (
-    <Grid.Container justify='center' css={{ maxHeight: '100vh' }}>
+    <Grid.Container justify='center'>
       <Grid xs={12} justify='center' css={{ '@smMin': { marginTop: '5em' }, '@smMax': { marginTop: '3em' } }}>
         <Text
           color='secondary'
@@ -23,7 +23,7 @@ export default function Hero() {
         <Image src={avatar} alt='avatar image' width={1000} height={200} />
       </Grid>
       <Grid xs={12} justify='center' css={{ marginTop: '6em' }}>
-        <img src={heroFooter} style={{ maxWidth: '860px' }} />
+        <Image src={heroFooter} width={860} autoResize />
       </Grid>
     </Grid.Container>
   );
