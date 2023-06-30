@@ -14,7 +14,7 @@ const styling = {
 
 export default function Skills() {
   return (
-    <Container sm css={{ marginTop: '-5em' }}>
+    <Container sm css={{ marginTop: '-3em' }}>
       <Grid.Container
         gap={3}
         justify='center'

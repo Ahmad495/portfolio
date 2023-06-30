@@ -1,8 +1,9 @@
 import Contact from '../components/landingPage/Contact';
 import Hero from '../components/landingPage/Hero';
 import Intro from '../components/landingPage/Intro';
-// import Project from '../components/landingPage/Project';
+import Project from '../components/landingPage/Project';
 import Skill from '../components/landingPage/Skill';
+import Footer from '../layout/Footer';
 
 export default function Landing() {
   return (
@@ -10,8 +11,9 @@ export default function Landing() {
       <Hero />
       <Intro />
       <Skill />
+      <Project />
       <Contact />
-      {/* <Project /> */}
+      <Footer />
     </section>
   );
 }
