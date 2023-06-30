@@ -6,7 +6,7 @@ import { Mail } from './Mail';
 export default function Contact({ openDialog, setOpenDialog }) {
   const [isLoading, setIsLoading] = useState(false);
   return (
-    <Modal closeButton aria-labelledby='modal-title' open={openDialog} blur onClose={() => setOpenDialog(false)}>
+    <Modal width='500px' closeButton aria-labelledby='modal-title' open={openDialog} blur onClose={() => setOpenDialog(false)}>
       <Modal.Header>
         <Text id='modal-title' size={18} b>
           What's Up
@@ -17,7 +17,10 @@ export default function Contact({ openDialog, setOpenDialog }) {
         <Textarea bordered color='secondary' placeholder='Message' rows={5} />
       </Modal.Body>
       <Modal.Footer>
-        <Button auto size={'sm'}>
+        <Button color={'error'} auto size={'sm'} onClick={() => setOpenDialog(false)}>
+          Close
+        </Button>
+        <Button auto size={'sm'} color={'secondary'}>
           {isLoading && <Loading color='currentColor' size='sm' />}
           Send
         </Button>

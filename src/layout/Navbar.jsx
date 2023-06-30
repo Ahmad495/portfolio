@@ -20,7 +20,7 @@ export default function MenuBar({ isDark, setIsDark }) {
         </Navbar.Brand>
         <Navbar.Content>
           <Switch color={'secondary'} size='sm' checked={false} iconOn={<MoonIcon filled />} iconOff={<SunIcon filled />} onChange={handleTheme} />
-          <Button color='secondary' auto ghost rounded size={'sm'} onPress={() => setOpenDialog(true)}>
+          <Button color='gradient' auto rounded bordered ghost size={'sm'} onPress={() => setOpenDialog(true)}>
             Say Hello
           </Button>
         </Navbar.Content>
