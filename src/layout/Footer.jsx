@@ -23,7 +23,7 @@ export default function Footer() {
           >
             Ahmad
           </Text>
-          <Text color='white' css={{ '@mdMin': { fontSize: '$xl' }, textAlign: 'center', marginTop: '1em' }}>
+          <Text color='white' css={{ '@xlMax': { fontSize: '$xl' }, textAlign: 'center', marginTop: '1em' }}>
             Living, learning, & leveling up one day at a time.
           </Text>
         </Grid>
@@ -40,15 +40,15 @@ export default function Footer() {
         </Grid>
         <Grid xs={12} justify='center'>
           <a href='mailto:ahmad.mehmood.agha@gmail.com'>
-            <Text color='white' css={{ '@mdMin': { fontSize: '$xl' }, textAlign: 'center', marginTop: '2em' }}>
+            <Text color='white' css={{ '@xlMax': { fontSize: '$xl' }, textAlign: 'center', marginTop: '2em' }}>
               Handcrafted by me @ahmad.mehmood.agha@gmail.com
             </Text>
           </a>
         </Grid>
         <Grid xs={12} justify='center'>
           <a href='https://nextui.org/' target='_blank' rel='noreferrer'>
-            <Text color='white' css={{ '@mdMin': { fontSize: '$md' }, textAlign: 'center', marginTop: '2em' }}>
-              Made with NextUI
+            <Text color='white' css={{ '@xlMax': { fontSize: '$md' }, textAlign: 'center', marginTop: '2em' }}>
+              Made with ❤️ and NextUI
             </Text>
           </a>
         </Grid>
