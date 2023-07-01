@@ -4,11 +4,11 @@ import { Grid, Text } from '@nextui-org/react';
 export default function Intro() {
   return (
     <div style={{ backgroundColor: '#6E07F3' }}>
-      <Grid.Container justify='center' css={{ paddingBlock: '7em', paddingInline: '5em' }}>
+      <Grid.Container justify='center' css={{ paddingBlock: '7em', '@mdMin': { paddingInline: '5em' }, '@smMax': { paddingInline: '2em' } }}>
         <Grid xs={12} justify='center'>
           <Text
             color='white'
-            css={{ '@xsMin': { fontSize: '$2xl', fontWeight: 'bold' }, '@mdMin': { fontSize: '$4xl', fontWeight: 'bold' }, textAlign: 'center' }}
+            css={{ '@mdMin': { fontSize: '$5xl', fontWeight: 'bold' }, '@smMax': { fontSize: '$3xl', fontWeight: 'bold' }, textAlign: 'center' }}
           >
             Hi, I’m Ahmad. Nice to meet you.
           </Text>

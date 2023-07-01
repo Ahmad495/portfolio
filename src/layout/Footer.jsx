@@ -17,7 +17,10 @@ export default function Footer() {
     <div style={{ backgroundColor: '#6E07F3', paddingBlock: '5em' }}>
       <Grid.Container justify='center'>
         <Grid xs={12} direction='column' justify='center'>
-          <Text color='white' css={{ '@mdMin': { fontSize: '$5xl', fontWeight: 'bold' }, textAlign: 'center' }}>
+          <Text
+            color='white'
+            css={{ '@mdMin': { fontSize: '$5xl', fontWeight: 'bold' }, '@smMax': { fontSize: '$3xl', fontWeight: 'bold' }, textAlign: 'center' }}
+          >
             Ahmad
           </Text>
           <Text color='white' css={{ '@mdMin': { fontSize: '$xl' }, textAlign: 'center', marginTop: '1em' }}>
@@ -36,7 +39,7 @@ export default function Footer() {
           </a>
         </Grid>
         <Grid xs={12} justify='center'>
-          <a href='mailto: ahmad.mehmood.agha@gmail.com'>
+          <a href='mailto:ahmad.mehmood.agha@gmail.com'>
             <Text color='white' css={{ '@mdMin': { fontSize: '$xl' }, textAlign: 'center', marginTop: '2em' }}>
               Handcrafted by me @ahmad.mehmood.agha@gmail.com
             </Text>

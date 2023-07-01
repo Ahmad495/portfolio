@@ -7,7 +7,9 @@ export default function Project() {
     <Container css={{ marginTop: '10em' }}>
       <Grid.Container justify='center' gap={3}>
         <Grid xs={12} direction='column' justify='center'>
-          <Text css={{ '@mdMin': { fontSize: '$5xl', fontWeight: 'bold' }, textAlign: 'center' }}>Projects</Text>
+          <Text css={{ '@mdMin': { fontSize: '$5xl', fontWeight: 'bold' }, '@smMax': { fontSize: '$3xl', fontWeight: 'bold' }, textAlign: 'center' }}>
+            Projects
+          </Text>
           <Text css={{ '@mdMin': { fontSize: '$xl' }, textAlign: 'center', marginTop: '1em' }}>
             Here are a few past design projects I've worked on. Want to see more? Email me.
           </Text>

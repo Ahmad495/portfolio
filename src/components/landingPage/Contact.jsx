@@ -11,7 +11,9 @@ export default function Contact() {
       <ContactForm openDialog={openDialog} setOpenDialog={setOpenDialog} />
       <Grid.Container justify='center' css={{ paddingBottom: '8em' }}>
         <Grid xs={12} justify='center'>
-          <Text css={{ '@mdMin': { fontSize: '$3xl', fontWeight: 'bold' }, textAlign: 'center' }}>Interested in collaborating with me?</Text>
+          <Text css={{ '@mdMin': { fontSize: '$3xl', fontWeight: 'bold' }, '@smMax': { fontSize: '$3xl', fontWeight: 'bold' }, textAlign: 'center' }}>
+            Interested in collaborating with me?
+          </Text>
         </Grid>
         <Grid xs={12} direction='column' alignItems='center'>
           <Text css={{ '@mdMin': { fontSize: '$xl' }, textAlign: 'center', marginTop: '1em' }}>
