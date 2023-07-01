@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Container, Grid, Text, Card, Col, Row, Button } from '@nextui-org/react';
+import { Container, Grid, Text } from '@nextui-org/react';
 import ProjectCard from '../Card';
 
 export default function Project() {
