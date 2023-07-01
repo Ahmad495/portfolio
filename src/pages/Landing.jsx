@@ -1,5 +1,5 @@
 import Contact from '../components/landingPage/Contact';
-import HireMe from '../components/landingPage/HIreMe';
+import HireMe from '../components/landingPage/HireMe';
 import Hero from '../components/landingPage/Hero';
 import Intro from '../components/landingPage/Intro';
 import Project from '../components/landingPage/Project';
