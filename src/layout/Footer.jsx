@@ -19,7 +19,7 @@ export default function Footer() {
         <Grid xs={12} direction='column' justify='center'>
           <Text
             color='white'
-            css={{ '@mdMin': { fontSize: '$5xl', fontWeight: 'bold' }, '@smMax': { fontSize: '$3xl', fontWeight: 'bold' }, textAlign: 'center' }}
+            css={{ '@xlMax': { fontSize: '$5xl', fontWeight: 'bold' }, '@smMax': { fontSize: '$3xl', fontWeight: 'bold' }, textAlign: 'center' }}
           >
             Ahmad
           </Text>

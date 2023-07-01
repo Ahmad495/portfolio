@@ -7,7 +7,7 @@ export default function Contact() {
   const [openDialog, setOpenDialog] = useState(false);
 
   return (
-    <div style={{ marginBlock: '10em', borderBottom: '1px solid #cccccc' }}>
+    <div style={{ marginBlock: '5em', borderBottom: '1px solid #cccccc' }}>
       <ContactForm openDialog={openDialog} setOpenDialog={setOpenDialog} />
       <Grid.Container justify='center' css={{ paddingBottom: '8em' }}>
         <Grid xs={12} justify='center'>

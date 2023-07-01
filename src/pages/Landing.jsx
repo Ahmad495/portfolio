@@ -1,4 +1,5 @@
 import Contact from '../components/landingPage/Contact';
+import HireMe from '../components/landingPage/HIreMe';
 import Hero from '../components/landingPage/Hero';
 import Intro from '../components/landingPage/Intro';
 import Project from '../components/landingPage/Project';
@@ -13,6 +14,7 @@ export default function Landing() {
       <Skill />
       <Project />
       <Contact />
+      <HireMe />
       <Footer />
     </section>
   );

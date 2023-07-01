@@ -4,7 +4,7 @@ import ProjectCard from '../Card';
 
 export default function Project() {
   return (
-    <Container css={{ marginTop: '10em' }}>
+    <Container css={{ marginTop: '5em' }}>
       <Grid.Container justify='center' gap={3}>
         <Grid xs={12} direction='column' justify='center'>
           <Text css={{ '@mdMin': { fontSize: '$5xl', fontWeight: 'bold' }, '@smMax': { fontSize: '$3xl', fontWeight: 'bold' }, textAlign: 'center' }}>
