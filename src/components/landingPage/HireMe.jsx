@@ -7,7 +7,7 @@ import ContactForm from '../modals/Contact';
 export default function HireMe() {
   const [openDialog, setOpenDialog] = useState(false);
   return (
-    <Container>
+    <Container lg>
       <ContactForm openDialog={openDialog} setOpenDialog={setOpenDialog} />
       <Card css={{ marginBottom: '-5em', backgroundColor: '#141C3A', borderRadius: '.8em', paddingBlock: '3em', paddingInline: '2em' }}>
         <Card.Body>
