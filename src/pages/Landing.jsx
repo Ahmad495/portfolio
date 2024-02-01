@@ -16,6 +16,7 @@ export default function Landing() {
       <Contact />
       <HireMe />
       <Footer />
+      
     </section>
   );
 }
